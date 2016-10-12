@@ -13,7 +13,7 @@ You have to add the Jsoup library to your project. You can chose to add using th
 #### #First Alternative -  Importing the .jar file.
 
 ##### Step 1. Downloading the library file.
-  Download the last version of Jsoup library(.jar) [here](https://jsoup.org/download). Or you can download the .jar file located in this project.
+  Download the last version of Jsoup library(.jar) [here](https://jsoup.org/download). Or you can download the .jar file [located in this project](https://github.com/jrvansuita/CheckNewAppVersionAvailable/blob/master/jsoup-1.9.2.jar).
 
 ##### Step 2. Adding the library file.
   Copy and paste the .jar file to libs folder of your project. After that, don't forget to include the file or the whole directory as dependncy in the gradle file.
