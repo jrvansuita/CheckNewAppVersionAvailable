@@ -6,7 +6,8 @@ This class makes a request to Play Store to check if there is a new version of y
 
 # Usage
 
-You have to add the Jsoup library to your project. You can chose to add using the .jar file ou using gradle.
+Copy the CheckNewAppVersion.java class file to your projet.
+Also You have to add the Jsoup library to your project. You can chose to add using the .jar file ou using gradle.
 
 [Official documentation here.](https://jsoup.org/download)
 
