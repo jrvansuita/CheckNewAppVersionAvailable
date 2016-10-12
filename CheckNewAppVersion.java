@@ -1,4 +1,4 @@
-package neat.starker.async;
+package your.package.utils;
 
 import android.content.Context;
 import android.content.Intent;
@@ -6,9 +6,7 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.AsyncTask;
-
 import org.jsoup.Jsoup;
-
 
 /**
  * Created by jrvansuita on 17/09/15.
