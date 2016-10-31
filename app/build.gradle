@@ -16,5 +16,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:24.2.1'
 
     //Add this line
-    compile 'com.github.jrvansuita:SQLiteHelper:v1.0.0'
+    compile 'com.github.jrvansuita:CheckNewAppVersionAvailable:v1.0.0'
 }
