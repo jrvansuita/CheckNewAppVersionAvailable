@@ -1,23 +1,24 @@
 # CheckNewAppVersionAvailable
 This class was created to use in Android projects.
 
-# Porpouse
-This class makes a request to Play Store to check if there is a new version of your published app. Then, you can notify your users to do the update.
+# Purpose
+This class makes a request to the Play Store to check if there is a new version of your published app. Depending on the result, you can then notify your users to do any neccersairy update.
 
 # Usage
 
-Copy the CheckNewAppVersion.java class file to your projet.
-Also You have to add the Jsoup library to your project. You can chose to add using the .jar file ou using gradle.
+Copy the CheckNewAppVersion.java class file to your project.
 
-[Official documentation here.](https://jsoup.org/download)
+You will also have to add the Jsoup library to your project. You can chose to add using the .jar file or through gradle.
 
-#### #First Alternative -  Importing the .jar file.
+[Official documentation here](https://jsoup.org/download)
+
+##### First Alternative -  Importing the .jar file.
 
 ##### Step 1. Downloading the library file.
-  Download the last version of Jsoup library(.jar) [here](https://jsoup.org/download). Or you can download the .jar file [located in this project](https://github.com/jrvansuita/CheckNewAppVersionAvailable/blob/master/jsoup-1.9.2.jar).
+  Download the last version of Jsoup library(.jar) [here](https://jsoup.org/download). Or you  download the .jar file [located in this project](https://github.com/jrvansuita/CheckNewAppVersionAvailable/blob/master/jsoup-1.9.2.jar).
 
 ##### Step 2. Adding the library file.
-  Copy and paste the .jar file to libs folder of your project. After that, don't forget to include the file or the whole directory as dependncy in the gradle file.
+  Copy and paste the .jar file to libs folder of your project. After that, don't forget to include the file or the whole directory as dependancy in the `build.gradle` file.
  
     dependencies {
        compile fileTree(include: ['*.jar'], dir: 'libs')
@@ -25,9 +26,9 @@ Also You have to add the Jsoup library to your project. You can chose to add usi
        compile files('libs/jsoup-1.9.2.jar')
     }
  
-#### #Seconde Alternative -  Importing the library using gradle.
+##### Second Alternative -  Importing the library using gradle.
 
-Simple add the compile line in the dependencies definitions on your gradle file.
+Simple add the following compile line in the dependencies definitions on your `build.gradle` file.
 
     dependencies {
       compile 'org.jsoup:jsoup:1.9.2'
@@ -53,5 +54,3 @@ Simple add the compile line in the dependencies definitions on your gradle file.
                 result.openUpdateLink();
             }
         }).execute();
-        
-
