@@ -1,3 +1,6 @@
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-CheckNewAppVersionAvailable-green.svg?style=true)](https://android-arsenal.com/details/1/4573)
+
+
 # CheckNewAppVersionAvailable
 This class makes a request to Play Store to check if there is a new version of your published app. Then, you can notify your users to do the update.
 
