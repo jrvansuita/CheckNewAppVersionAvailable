@@ -49,3 +49,7 @@ This class makes a request to the Play Store to check if there is a new version 
             result.openUpdateLink();
         }
     }).execute();
+
+   
+# License
+See the [LICENSE](/LICENSE.txt). file for license rights and limitations (MIT).

@@ -4,7 +4,7 @@ android {
     compileSdkVersion 24
     buildToolsVersion "24.0.0"
     defaultConfig {
-        applicationId "com.vansuita.checknewappversionavailable"
+        applicationId "com.vansuita.checknewappversionavailable.sample"
         minSdkVersion 9
         targetSdkVersion 24
         versionCode 1
@@ -14,7 +14,6 @@ android {
 
 dependencies {
     compile 'com.android.support:appcompat-v7:24.2.1'
-
     //Add this line
-    compile 'com.github.jrvansuita:CheckNewAppVersionAvailable:v1.0.0'
+    compile project(':library')
 }

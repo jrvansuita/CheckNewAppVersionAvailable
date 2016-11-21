@@ -1,4 +1,4 @@
-package com.vansuita.library;
+package com.vansuita.checknewappversionavailable;
 
 import android.content.Context;
 import android.content.Intent;
