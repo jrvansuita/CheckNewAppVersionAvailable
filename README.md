@@ -5,12 +5,7 @@
 
 
 # CheckNewAppVersionAvailable
-This project makes a request to Play Store to check if there is a new version of your published app. Then, you can notify your users to do the update.
-
-# Porpouse
-
-This class makes a request to the Play Store to check if there is a new version of your published app. Depends on that, you can notify your users to then,  do the update.
-
+This project makes a request to the Google Play Store to check if there is a new version of your published app. Should one be available, you can notify your users to apply the update.
 
 # Usage
 
