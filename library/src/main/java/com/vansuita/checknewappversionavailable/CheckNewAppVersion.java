@@ -15,7 +15,7 @@ import org.jsoup.Jsoup;
 public class CheckNewAppVersion extends AsyncTask<Void, Void, CheckNewAppVersion.Result> {
 
     private static final String REFERRER = "http://www.google.com";
-    private static final String DIV = "div[itemprop=softwareVersion]";
+    private static final String DIV = ".hAyfc .htlgb";
     private static final String USER_AGENT = "Mozilla/5.0 (Windows; U; WindowsNT 5.1; en-US; rv1.8.1.6) Gecko/20070725 Firefox/2.0.0.6";
     private static final String PLAY_STORE_LINK = "http://play.google.com/store/apps/details?id=%s&hl=en";
 
