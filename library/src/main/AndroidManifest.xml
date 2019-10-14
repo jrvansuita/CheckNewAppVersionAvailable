@@ -1,1 +1,5 @@
-<manifest package="com.vansuita.checknewappversionavailable"/>
+<manifest
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  package="com.vansuita.checknewappversionavailable">
+  <uses-permission android:name="android.permission.INTERNET"/>
+</manifest>

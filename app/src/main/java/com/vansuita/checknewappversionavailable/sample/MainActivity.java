@@ -1,6 +1,7 @@
 package com.vansuita.checknewappversionavailable.sample;
 
 import android.os.Bundle;
+import android.util.Log;
 
 import com.vansuita.checknewappversionavailable.CheckNewAppVersion;
 
@@ -13,10 +14,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        new CheckNewAppVersion(this).setOnTaskCompleteListener(new CheckNewAppVersion.ITaskComplete() {
+        new CheckNewAppVersion(this, 30000, "com.harex.android.ubpay").setOnTaskCompleteListener(new CheckNewAppVersion.ITaskComplete() {
             @Override
             public void onTaskComplete(CheckNewAppVersion.Result result) {
-
                 //Checks if there is a new version available on Google Play Store.
                 result.hasNewVersion();
 
@@ -27,7 +27,11 @@ public class MainActivity extends AppCompatActivity {
                 result.getOldVersionCode();
 
                 //Opens the Google Play Store on your app page to do the update.
-                result.openUpdateLink();
+                result.openUpdateLink(MainActivity.this);
+
+                Log.d("CheckNewAppVersion", "CheckNewAppVersion Sample" +
+                    "packageVersion : " + result.getOldVersionCode() + "\n" +
+                    "googlePlayVersion : " + result.getNewVersionCode());
             }
         }).execute();
 
