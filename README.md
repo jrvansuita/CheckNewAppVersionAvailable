@@ -52,7 +52,7 @@ This project makes a request to the Google Play Store to check if there is a new
 See the [LICENSE](/LICENSE.txt). file for license rights and limitations (MIT).
 
 ## Support on Beerpay
-Hey dude! Help me out for a couple of :beers:!
+Hey dude! Help me out for a glass of :beers:!
 
 
 <a href="https://www.instagram.com/jnrvans/" target="_blank">
